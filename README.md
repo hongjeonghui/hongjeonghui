@@ -8,14 +8,14 @@
 
 ---
 
-### 💁 About Me
+### 💁 소개
 
-- 🤖 I’m passionate about building intelligent systems that combine **vision and language**.
-- 📊 I have a strong interest in **data analysis**, **LLMs**, and **multimodal AI**.
-- 🧠 I enjoy breaking down complex models and turning them into practical applications.
-- 🛠️ My recent work includes projects using **YOLO**, **GPT APIs**, **EfficientNet**, and **LSTM**.
-- 🌱 I’m constantly learning — especially through hands-on projects and continuous debugging.
-- 🎯 My goal is to create **AI-powered tools** that are useful, explainable, and even a little fun.
+- 🤖 저는 **시각 정보와 언어 정보를 함께 이해하는 AI 시스템**에 큰 흥미가 있습니다.  
+- 📊 데이터 분석, LLM, 멀티모달 AI에 꾸준히 관심을 가지고 학습하고 있습니다.  
+- 🧠 복잡한 모델 구조를 실제 제품처럼 동작하는 형태로 구현하는 과정을 좋아합니다.  
+- 🛠️ 최근에는 **YOLO**, **GPT API**, **EfficientNet**, **LSTM** 등을 활용한 프로젝트들을 진행했습니다.  
+- 🌱 프로젝트를 만들면서 디버깅하고 구조를 개선하는 과정이 가장 즐겁습니다.  
+- 🎯 “유용하고, 설명 가능하며, 실제로 쓰일 수 있는 AI 도구”를 만드는 것이 목표입니다.
 
 
 ---
@@ -30,52 +30,41 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=langchain&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
 
 ---
 
-### 📈 GitHub Stats
+### 🗂️ 주요 프로젝트
 
-![Jeonghui's GitHub stats](https://github-readme-stats.vercel.app/api?username=hongjeonghee&show_icons=true&theme=tokyonight)
+- 🤖 **AI Interview Agent**  
+  GPT 기반 모의 면접 시스템으로,  
+  이력서 분석 → 질문 전략 생성 → 답변 평가 → 후속 질문까지 자동으로 실행합니다.
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hongjeonghee&layout=compact)
+- 🌦️ **Emergency Predictor**  
+  기상 데이터와 지역 특성을 활용해  
+  119 구조·구급 신고량을 예측하는 모델입니다.
+  해당 프로젝트는 대회 평가에서 우수성을 인정받아 입선되었습니다.
 
----
+- 👩‍🍳 **AI Chef – 이미지 기반 레시피 추천 시스템**  
+  음식 이미지에서 재료를 YOLO로 감지하고,  
+  감지된 재료 조합으로 GPT가 레시피를 자동 생성하는 멀티모달 프로젝트입니다.  
+  - 🥬 1,900장의 이미지, 38개 재료 종류로 학습  
+  - 🧠 모델: YOLOv11, mAP 약 0.78  
+  - 💡 재료 기반 자동 레시피 생성  
+  - 🔗 ChatGPT 연동으로 다양한 요리 제안 가능
 
-### 🗂️ My Projects
-
-- 🤖 AI Interview Agent  
-  A GPT-based mock interview system that automates resume analysis, strategy generation, answer evaluation, and follow-up questions.
-
-- 🌦️ Emergency Predictor  
-  A prediction model that forecasts 119 emergency call volumes using weather data and geospatial features in Korea.
-
-- 👩‍🍳 AI Chef – Image-Based Recipe Recommendation  
-  A multimodal AI project that detects ingredients from food images using YOLO and recommends recipes via GPT.  
-  - 🥬 Trained on 1,900 images across 38 ingredient types  
-  - 🧠 Model: YOLOv11, mAP ≈ 0.78  
-  - 💡 Auto-generates recipes from detected ingredients  
-  - 🔗 ChatGPT integration for interactive recipe suggestions
-
-- 🖼️ Image Caption Generator  
-  A deep learning model that generates natural language captions from input images.  
-  - 📌 Trained on Flickr8k with 8,000 images and 5 captions each  
-  - 🧠 Uses EfficientNetV2S for feature extraction and LSTM for captioning  
-  - ⚙️ Built using Keras Functional API with custom sequence handling  
-  - 🚧 Debugged input mismatch, masking, and merging issues through trial & error  
-  - ✨ Evaluated using BLEU Score — improved structure and contextual understanding  
-  - 🎯 Applied Dropout, EarlyStopping, tokenizer tuning for more fluent output
-
+- 🖼️ **Image Caption Generator**  
+  이미지를 입력하면 자연스러운 문장을 생성하는 딥러닝 모델입니다.  
+  - 📌 Flickr8k(8,000장 × 5캡션) 데이터셋 기반  
+  - 🧠 EfficientNetV2S로 특징 추출 + LSTM으로 문장 생성  
+  - ⚙️ Custom tokenizer, 패딩, 입력 구조 직접 구현  
+  - 🚧 입력 불일치, 마스킹, 시퀀스 처리 오류 등을 해결하며 모델 안정화  
+  - ✨ BLEU Score 기반 평가로 성능 개선  
+  - 🎯 Dropout, EarlyStopping 등으로 자연스러운 문장 출력
 
 
 ---
 
-### ✨ Fun Facts
-
-- 🧠 “Why isn’t this working?” is basically how I start my day.
-- 📚 When I learn something, I *want* to document it. Some days I obsess over neat organization (but not every day 😅).
-
-
----
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=hongjeonghee&style=flat-square&color=blue" alt="Visitor Badge"/>
